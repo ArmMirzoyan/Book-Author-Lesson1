@@ -26,8 +26,8 @@ public class Lesson1 {
     Author otherAuthor2 = new Author("Jack London","ar.mirzoyan@yahoo.com");
     Book1 otherBook2 = new Book1("number123zs125", "Martin Eden", otherAuthor2,7000);
 
-    System.out.print(myFirsBook.toString() +"\n");
-    System.out.print(otherBook.toString() + "\n");
-    System.out.print(otherBook2.toString());
+    System.out.print(myFirsBook);
+    System.out.print(otherBook);
+    System.out.print(otherBook2);
   }
 }

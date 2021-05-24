@@ -45,8 +45,8 @@ public class Book1 {
     }
     @Override
     public String toString() {
-         return "Isbn is " + isbn + ", Book name is " +
-                name + ", " + author.toString() + "Price is " + price + ", " + "qty = " + qty;
+         return "Book[Isbn = " + isbn + ", name = " +
+                 name + ", " + author + "price = " + price + ", " + "qty = " + qty +"]\n";
 
     }
 }
